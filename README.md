@@ -1,18 +1,17 @@
-# CRYPTOOASIS_VER_2
-
-
 ### Install client dependencies
 
 ```bash
 cd client
 npm install --force
 ```
+
 ### Install server dependencies
 
 ```bash
 cd ..
 npm install --force
 ```
+
 ### Run project
 
 ```bash

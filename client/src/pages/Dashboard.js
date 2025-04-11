@@ -35,6 +35,19 @@ const Wrapper = styled.div`
   }
 `;
 
+// const DangerButton = styled(Button)`
+//   background-color: ${(props) => props.theme.colors.dangerColorLighter};
+//   color: ${(props) => props.theme.colors.fontColorLight};
+
+//   &:visited,
+//   &:hover,
+//   &:active,
+//   &:focus {
+//     background-color: ${(props) => props.theme.colors.dangerColor};
+//     color: ${(props) => props.theme.colors.fontColorLight};
+//   }
+// `;
+
 const Dashboard = () => {
    
   const { userName, email } = useContext(globalContext);
